@@ -105,11 +105,11 @@
           </div>
           <div class="form-group form-check align-self-start">
             <input type="checkbox" class="form-check-input" id="checkAge">
-            <label class="form-check-label" for="checkAge">我確認我已年滿18歲</label>
+            <label class="form-check-label" for="checkAge">我確認我已年滿18歲 <a class="link-terms" href="#">[ 查看條款 ]</a></label>
           </div>
           <div class="form-group form-check align-self-start">
             <input type="checkbox" class="form-check-input" id="checkTerms">
-            <label class="form-check-label" for="checkTerms">我同意 Ian Macleod Distillers Ltd 蒐集我的個人資料，並根據隱私權政策向我提供品牌相關訊息</label>
+            <label class="form-check-label" for="checkTerms">我同意 Ian Macleod Distillers Ltd 蒐集我的個人資料，並根據<a href="privacy-policy.html" target="_blank">隱私權政策</a>向我提供品牌相關訊息</label>
           </div>
           <button type="submit" class="btn btn-primary">訂閱</button>
         </form>
@@ -178,6 +178,29 @@
     </div>
   </div>
   <!-- 提示 訂閱成功 -->
+
+  <!-- 提示 重要聲明 -->
+  <div id="agreeModal" class="modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h2 class="text-center mb-4 font-family-serif">重要聲明</h2>
+          <p>一、依據法令規定，本網站僅提供商品資訊，恕不提供線上交易服務，亦無法於網站上接受訂單或完成訂單確認。本公司收到您的訊息後將有專人與您聯繫並提供服務。</p>
+          <p>二、依據法令規定，本公司酒類商品不得售予年齡未滿十八歲之青少年。</p>
+          <p>三、在任何不符合相關法令規定之情況下，本公司保留取消或拒絕交易之權利，並且不負任何賠償責任，造成不便之處敬請見諒。</p>
+        </div>
+        <div class="modal-footer flex-column flex-sm-row justify-content-center">
+          <a class="link-basic link-agree" href="#">我已閱讀並同意</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 提示 重要聲明 -->  
 
   <!-- script -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

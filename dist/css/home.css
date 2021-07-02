@@ -8055,6 +8055,15 @@ main {
         margin-left: -2.5rem; }
       .newsletter .content .form-check .form-check-label {
         margin-top: 5px; }
+        .newsletter .content .form-check .form-check-label a {
+          color: #878A8E;
+          text-decoration: underline; }
+          .newsletter .content .form-check .form-check-label a:hover {
+            color: #878A8E;
+            text-decoration: underline; }
+          .newsletter .content .form-check .form-check-label a:focus, .newsletter .content .form-check .form-check-label a:active {
+            color: #878A8E;
+            text-decoration: underline; }
 
 footer {
   color: #ffffff;

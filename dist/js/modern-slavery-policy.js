@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \*************************************/
 /***/ (() => {
 
-eval("$(function(){\n  $(window).on('resize', onResize);\n  onResize();\n\n  function onResize(){\n    let windowWidth = $(window).innerWidth();\n\n    if(windowWidth > 767){\n      $('header nav').removeClass('open');\n      $('header .hamburger').removeClass('open');\n    }\n  }\n\n  $('.hamburger').on('click', function(){\n    $('header nav').toggleClass('open');\n    $('header .hamburger').toggleClass('open');\n  });\n\n  // 訂閱成功\n  $('#subscribeModal .link-home').on('click', function(){\n    $('#subscribeModal').modal('hide');\n    location.href = 'home.html';\n    return false;\n  });\n});\n\n//# sourceURL=webpack://web/./src/js/components/global.js?");
+eval("$(function(){\n  $(window).on('resize', onResize);\n  onResize();\n\n  function onResize(){\n    let windowWidth = $(window).innerWidth();\n\n    if(windowWidth > 767){\n      $('header nav').removeClass('open');\n      $('header .hamburger').removeClass('open');\n    }\n  }\n\n  $('.hamburger').on('click', function(){\n    $('header nav').toggleClass('open');\n    $('header .hamburger').toggleClass('open');\n  });\n\n  // 訂閱成功\n  $('#subscribeModal .link-home').on('click', function(){\n    $('#subscribeModal').modal('hide');\n    location.href = 'home.html';\n    return false;\n  });\n\n  // 重要聲明\n  $('.link-terms').on('click', function(){\n    $('#agreeModal').modal('show');\n    return false;\n  });\n\n  $('.link-agree').on('click', function(){\n    $('#agreeModal').modal('hide');\n    return false;\n  });\n});\n\n//# sourceURL=webpack://web/./src/js/components/global.js?");
 
 /***/ }),
 
