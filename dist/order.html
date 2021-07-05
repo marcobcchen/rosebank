@@ -5,6 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Rosebank</title>
   <link rel="stylesheet" href="css/order.css" />
+
+  <script id="ret-js-template" type="text/javascript">
+    var retUrlPrefix="//a.amnet.tw/tracking/"; var retCert="193e05dc857955134c6b349893c186b0";
+    var retSiteId=114; (function(w, d, s, n) { if(w.RET){ return; }
+    var r = w.RET || (w.RET = {}); r[n] = r[n] || function () { (r[n].q = r[n].q || []).push(arguments) }, r[n].q = [], r[n].l = 1 * new Date();
+    var ret = d.createElement('script');
+    ret.type = 'text/javascript';
+    ret.async = true;
+    ret.src = retUrlPrefix + 'ret.js?' + ( Math.floor(new Date().getTime() / 100000) );
+    var currentJs = d.getElementById('ret-js-template');
+    currentJs.parentNode.insertBefore(ret, currentJs); })(window, document, 'script', 'tracking');
+  </script>  
 </head>
 <body>
   <!-- header -->
@@ -264,10 +276,11 @@
           <p class="text-center">
             您已順利完成填單<br>
             諮詢編號為 <span class="highlight">A1234567</span><br>
-            您已順利完成填單資訊亦同步寄送至您提供的電子信箱<br>
+            資訊亦同步寄送至您提供的電子信箱<br>
             將依據填單順序依序處理<br>
             並由專人盡快與您聯繫<br>
             填單並不代表訂購，將由專人聯繫後始能進入訂購流程<br>
+            還請知悉，謝謝您！<br>
           </p>
         </div>
         <div class="modal-footer flex-column flex-sm-row justify-content-center">
@@ -292,10 +305,10 @@
           <p class="text-center">
             我們已收到您的資料<br>
             諮詢編號為 <span class="highlight">A1234567</span><br>
-            將依據填單順序依序處理<br>
-            請靜待專人與您聯繫，謝謝您！<br>
+            請靜待專人與您聯繫，填單並不代表訂購，<br>
+            將由專人聯繫後始能進入訂購流程，<br>
+            還請知悉，謝謝您！<br>
           </p>
-          <p class="text-center tips">*填單並不代表訂購，將由專人聯繫後始能進入訂購流程，還請知悉</p>
         </div>
         <div class="modal-footer flex-column flex-sm-row justify-content-center">
           <a class="link-basic link-home" href="#">返回首頁</a>
