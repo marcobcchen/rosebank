@@ -8099,10 +8099,12 @@ footer {
   background-color: #000000;
   margin-bottom: 10vh; }
   footer .copyright .item {
-    margin-bottom: 10%; }
+    margin-bottom: 10%;
+    width: 100%; }
     @media (min-width: 768px) {
       footer .copyright .item {
-        margin-bottom: 8%; } }
+        margin-bottom: 8%;
+        width: 33.33%; } }
     @media (min-width: 992px) {
       footer .copyright .item {
         margin-bottom: 2%; } }

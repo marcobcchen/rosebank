@@ -8099,10 +8099,12 @@ footer {
   background-color: #000000;
   margin-bottom: 10vh; }
   footer .copyright .item {
-    margin-bottom: 10%; }
+    margin-bottom: 10%;
+    width: 100%; }
     @media (min-width: 768px) {
       footer .copyright .item {
-        margin-bottom: 8%; } }
+        margin-bottom: 8%;
+        width: 33.33%; } }
     @media (min-width: 992px) {
       footer .copyright .item {
         margin-bottom: 2%; } }
@@ -8178,6 +8180,10 @@ footer {
       .product .information h2 {
         font-size: 2rem;
         margin-bottom: 4%; } }
+  .product .information > p {
+    margin-bottom: 4%; }
+  .product .information .highlight {
+    color: #E01F21; }
   .product .information .note {
     margin-top: 8%;
     margin-bottom: 12%; }
