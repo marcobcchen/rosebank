@@ -9,7 +9,7 @@
 <body>
   <!-- main content -->
   <div class="bg-light-blue p-0 p-sm-4">
-    <div class="p-4 p-sm-0 d-flex justify-content-center align-items-start align-items-sm-center bg-white index">
+    <div class="p-4 d-flex justify-content-center bg-white index">
       <div class="d-flex flex-column align-items-center check">
         <div class="logo"><img class="img-fluid" src="src/images/home/logo.png"></div>
         <p>進入網站前請確認您已達法定飲酒年齡</p>
@@ -73,6 +73,27 @@
     </div>
   </div>
   <!-- 提示 未達年齡 -->
+
+  <!-- 提示 預購尚未開始 -->
+  <div id="notOpenModal" class="modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h2 class="text-center mb-4 font-family-serif">諮詢服務</h2>
+          <p class="text-center">酒款諮詢服務將於 2021/7/26 開放<br>謝謝您的支持！</p>
+        </div>
+        <div class="modal-footer flex-column flex-sm-row justify-content-center">
+          <a class="link-basic link-home" href="#">返回首頁</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 提示 預購尚未開始 -->  
 
   <!-- script -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

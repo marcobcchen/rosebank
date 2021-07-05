@@ -7944,12 +7944,10 @@ footer {
   background-color: #000000;
   margin-bottom: 10vh; }
   footer .copyright .item {
-    margin-bottom: 10%;
-    width: 100%; }
+    margin-bottom: 10%; }
     @media (min-width: 768px) {
       footer .copyright .item {
-        margin-bottom: 8%;
-        width: 33.33%; } }
+        margin-bottom: 8%; } }
     @media (min-width: 992px) {
       footer .copyright .item {
         margin-bottom: 2%; } }
@@ -8010,13 +8008,14 @@ footer {
       position: relative;
       height: calc(90vh - 3rem);
       background-size: 30% auto;
-      overflow: hidden; } }
+      overflow: auto; } }
   .index .check {
     width: 100%; }
     @media (min-width: 576px) {
       .index .check {
         width: 45%;
-        max-width: 570px; } }
+        max-width: 570px;
+        margin-top: 8vh; } }
     .index .check .logo {
       width: 90%;
       margin-bottom: 4%; }
@@ -8055,7 +8054,8 @@ footer {
           color: #000000;
           background-color: #ffffff; }
     .index .check .link {
-      margin-top: 6%; }
+      margin-top: 6%;
+      padding-bottom: 6%; }
       @media (min-width: 576px) {
         .index .check .link {
           margin-top: 8%; } }
