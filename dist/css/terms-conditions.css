@@ -8149,3 +8149,20 @@ footer {
       background-image: url(../src/images/footer/warning_md.png);
       background-size: auto 60%; } }
 
+.terms h3 {
+  font-size: 1.5rem;
+  margin: 8% 0 4% 0; }
+  @media (min-width: 768px) {
+    .terms h3 {
+      font-size: 1.75rem;
+      margin: 4% 0 2% 0; } }
+
+.terms a {
+  color: #cd202c; }
+  .terms a:hover, .terms a:active, .terms a:focus {
+    color: #cd202c;
+    text-decoration: underline; }
+
+.terms ol {
+  padding-left: 1.5rem; }
+

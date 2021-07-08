@@ -8149,3 +8149,17 @@ footer {
       background-image: url(../src/images/footer/warning_md.png);
       background-size: auto 60%; } }
 
+.privacy h3 {
+  font-size: 1.5rem;
+  margin: 8% 0 4% 0; }
+  @media (min-width: 768px) {
+    .privacy h3 {
+      font-size: 1.75rem;
+      margin: 4% 0 2% 0; } }
+
+.privacy a {
+  color: #cd202c; }
+  .privacy a:hover, .privacy a:active, .privacy a:focus {
+    color: #cd202c;
+    text-decoration: underline; }
+
