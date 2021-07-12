@@ -7819,6 +7819,9 @@ main {
         padding: 0 1.5rem !important;
         padding-bottom: 1.5rem !important; } }
 
+img {
+  width: 100%; }
+
 .link-basic {
   display: block;
   width: 100%;
